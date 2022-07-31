@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    password: mag
+    username: mag
+    url: jdbc:postgresql://localhost:5432/mag
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+
